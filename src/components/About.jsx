@@ -36,7 +36,7 @@ export default function About() {
   const { t } = useTranslation();
 
   return (
-    <section id="about" className="relative py-20 sm:py-28 bg-[#0f1923] overflow-hidden">
+    <section id="about" className="relative py-20 sm:py-28 bg-[#0E1610] overflow-hidden">
       {/* Background orb */}
       <div className="absolute top-1/2 left-0 w-96 h-96 bg-gold/3 rounded-full blur-3xl -translate-y-1/2" />
 

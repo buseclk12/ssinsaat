@@ -49,7 +49,7 @@ export default function FloorPlans() {
   const data = plansData[activeType][activeFloor];
 
   return (
-    <section id="plans" className="relative py-20 sm:py-28 bg-[#0f1923] overflow-hidden">
+    <section id="plans" className="relative py-20 sm:py-28 bg-[#0E1610] overflow-hidden">
       <div className="absolute top-1/3 right-0 w-80 h-80 bg-gold/3 rounded-full blur-3xl" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">

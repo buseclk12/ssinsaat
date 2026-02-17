@@ -1,14 +1,25 @@
 @import "tailwindcss";
 
 @theme {
-  --font-serif: "Playfair Display", serif;
-  --font-sans: "Inter", sans-serif;
-  --color-anthracite: #2C3E50;
-  --color-anthracite-dark: #1a252f;
-  --color-anthracite-light: #3d566e;
-  --color-gold: #D4AF37;
-  --color-gold-light: #e8cc6e;
-  --color-gold-dark: #b8941f;
+  --font-serif: "Cormorant Garamond", serif;
+  --font-sans: "Source Sans 3", sans-serif;
+  --color-primary: #5D8A4E;
+  --color-primary-light: #7BAC66;
+  --color-primary-dark: #436B37;
+  --color-gold: var(--color-primary);
+  --color-gold-light: var(--color-primary-light);
+  --color-gold-dark: var(--color-primary-dark);
+  --color-anthracite: #2C3E2C;
+  --color-anthracite-dark: #1A2B1A;
+  --color-anthracite-light: #3D5E3D;
+}
+
+.nav-floating {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 html {
@@ -19,7 +30,7 @@ body {
   margin: 0;
   font-family: var(--font-sans);
   color: #333;
-  background: #0f1923;
+  background: #0E1610;
 }
 
 #root {
@@ -41,14 +52,14 @@ body {
 }
 
 .glass-gold {
-  background: rgba(212, 175, 55, 0.08);
+  background: rgba(93, 138, 78, 0.1);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1px solid rgba(93, 138, 78, 0.25);
 }
 
 .glass-dark {
-  background: rgba(15, 25, 35, 0.7);
+  background: rgba(14, 22, 16, 0.8);
   backdrop-filter: blur(24px);
   -webkit-backdrop-filter: blur(24px);
   border: 1px solid rgba(255, 255, 255, 0.08);

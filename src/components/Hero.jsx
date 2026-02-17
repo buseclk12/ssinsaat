@@ -10,7 +10,7 @@ export default function Hero() {
         className="absolute inset-0 bg-cover bg-center scale-105"
         style={{ backgroundImage: 'url(/images/page-02.jpg)' }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0f1923]/80 via-[#0f1923]/40 to-[#0f1923]/90" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0E1610]/80 via-[#0E1610]/40 to-[#0E1610]/90" />
 
       <div className="relative z-10 text-center px-4 max-w-4xl">
         <motion.div

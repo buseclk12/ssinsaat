@@ -7,12 +7,12 @@ export default function Stats() {
   const stats = [
     { value: t('stats.apartments'), label: t('stats.apartmentsLabel') },
     { value: t('stats.shops'), label: t('stats.shopsLabel') },
-    { value: t('stats.parcels'), label: t('stats.parcelsLabel') },
+    { value: t('stats.blocks'), label: t('stats.blocksLabel') },
     { value: t('stats.social'), label: t('stats.socialLabel') },
   ];
 
   return (
-    <section className="relative py-16 sm:py-20 bg-[#0f1923] overflow-hidden">
+    <section className="relative py-16 sm:py-20 bg-[#0E1610] overflow-hidden">
       {/* Subtle gradient orbs */}
       <div className="absolute top-0 left-1/4 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
       <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-gold/5 rounded-full blur-3xl" />
